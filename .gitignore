@@ -1,0 +1,66 @@
+# -------------------------
+# Python specific ignores
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.so
+*.whl
+
+# -------------------------
+# Logs and temp files
+# -------------------------
+*.log
+*.csv
+*.tmp
+*.swp
+
+# -------------------------
+# Databases & local storage
+# -------------------------
+*.sqlite
+*.db
+*.json
+
+# -------------------------
+# Credentials / secrets
+# -------------------------
+credentials.json
+.env
+*.key
+*.pem
+
+# -------------------------
+# Platform-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Drivers & binaries
+# -------------------------
+chromedriver-win64/
+chromedriver.exe
+
+# -------------------------
+# Virtual environment
+# -------------------------
+venv/
+env/
+.venv/
+mini_venu/
+
+# -------------------------
+# Jupyter / notebooks cache
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Build / dist folders
+# -------------------------
+build/
+dist/

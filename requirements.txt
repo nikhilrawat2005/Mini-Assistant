@@ -1,0 +1,31 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pyttsx3>=2.90
+lxml>=5.2.0  # Required for HTML parsing
+
+# Voice processing
+sounddevice>=0.4.0
+vosk>=0.3.45
+
+# NLP and ML
+transformers>=4.33.0
+langdetect>=1.0.0
+torch>=2.0.0
+
+# File utilities
+PyPDF2>=3.0.0
+
+# GUI for Android
+kivy>=2.2.0
+kivymd>=1.1.0
+
+# Web automation
+selenium>=4.22.0
+
+# Additional requirements
+python-dateutil>=2.8.0
+numpy>=1.24.0
+func-timeout>=4.3.0
+
+wikipedia>=1.4.0
